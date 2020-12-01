@@ -1,0 +1,63 @@
+.primary-label {
+    font-family: $primary-font;
+    font-size: 15px;
+    margin-left: 0; 
+    color: $black-color;
+}
+
+.primary-label.light {
+    opacity: 0.9;
+}
+ 
+.primary-label.ex-small {
+    font-size: 12px;
+}
+
+.primary-label.small {
+    font-size: 14px;
+}
+  
+.primary-label.large {
+    font-size: 20px;
+}
+  
+.primary-label.big {
+    font-size: 25px;
+}
+  
+.primary-label.grey {
+    color: $grey-color;
+}
+
+.primary-label.dark-grey{
+    color: $grey-dark-color;
+}
+
+.primary-label.error {
+    color: $red-color;
+    font-size: 0.75rem;
+    margin-top: 8px;
+    min-height: 1em;
+    text-align: left;
+    line-height: 1em;
+}
+
+.primary-label.text-shadow {
+    text-shadow: 0 0 0 $black-dark-color;
+}
+
+.asterisk {
+    color: $red-color;
+}
+
+.primary-label.semi-bold-font{
+    font-family: $semi-bold-font;
+}
+
+.primary-label.bold-font {
+    font-family: $bold-font;
+}
+
+.primary-label.thin-font{
+    font-family: $thin-font;
+}

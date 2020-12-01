@@ -1,0 +1,135 @@
+.primary-button{
+    background-color: $primary-color !important;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: $primary-dark-color !important;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    }
+}
+
+.primary-button.Mui-disabled{
+    background-color: $primary-light-color !important;
+    .MuiButton-label{
+        color: $grey-color !important;
+    }
+}
+
+// primary button outlined
+.primary-button-outlined.MuiButton-outlinedPrimary{
+    color: $primary-color;
+    border-color: $primary-color;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        color: $primary-color;
+        border-color: $primary-color;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    }
+}
+
+// Grey Button
+.primary-button.grey{
+    background-color: $grey-dark-color !important;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: $grey-dark-color !important;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    } 
+}
+
+.primary-button.grey.Mui-disabled{
+    background-color: $grey-color !important;
+    .MuiButton-label{
+        color: $grey-dark-color !important;
+        opacity: 0.7;
+    } 
+}
+
+// primary button outlined
+.primary-button-outlined.grey.MuiButton-outlinedPrimary{
+    color: $grey-dark-color;
+    border-color: $grey-dark-color;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        color: $grey-dark-color;
+        border-color: $grey-dark-color;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    }
+}
+
+// Red Button
+.primary-button.red{
+    background-color: $red-color !important;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: $red-color !important;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    } 
+}
+
+.primary-button.red.Mui-disabled{
+    background-color: $red-color !important;
+    .MuiButton-label{
+        color: $white-color !important;
+        opacity: 0.7;
+    } 
+}
+
+// primary button outlined
+.primary-button-outlined.red.MuiButton-outlinedPrimary{
+    color: $red-color;
+    border-color: $red-color;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        color: $red-color;
+        border-color: $red-color;
+    }
+    .MuiButton-label{
+        font-family: $semi-bold-font;
+        text-transform: none;
+    }
+}
+
+
+// Only Icon Button
+.primary-button.only-icon{
+    padding: 0;
+    margin: 0;
+    width: 10px;
+    min-width: 40px;
+    height: 40px;
+    .MuiButton-label{
+        padding: 0;
+        margin: 0;
+        .MuiButton-iconSizeMedium{
+            margin: 0;
+            padding: 5px 0px;
+        }
+    }
+}
